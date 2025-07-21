@@ -8,6 +8,7 @@ Esse projeto nasceu para substituir processos manuais (Google Forms, e-mails, pl
 ## 🚀 Funcionalidades do MVP
 
 ### 👨‍🎓 Área do Formando
+
 - Acesso com código da turma
 - Escolha de pacotes personalizados (com álbum, evento, etc.)
 - Preenchimento de dados (nome, e-mail, medidas da beca...)
@@ -18,6 +19,7 @@ Esse projeto nasceu para substituir processos manuais (Google Forms, e-mails, pl
 - Envio automático de contrato e comprovante
 
 ### 👩‍💼 Área do Administrador
+
 - Visualização de todos os formandos por turma
 - Status de pagamento e contrato
 - Acesso aos contratos assinados
@@ -28,6 +30,7 @@ Esse projeto nasceu para substituir processos manuais (Google Forms, e-mails, pl
 ## 🧰 Tecnologias Utilizadas
 
 ### Backend
+
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
 - [MongoDB + Mongoose](https://mongoosejs.com/)
@@ -36,12 +39,14 @@ Esse projeto nasceu para substituir processos manuais (Google Forms, e-mails, pl
 - JWT (autenticação com tokens)
 
 ### Frontend
+
 - [React.js](https://react.dev/)
 - [Vite](https://vitejs.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [React Hook Form](https://react-hook-form.com/)
 
 ### DevOps
+
 - [Git](https://git-scm.com/)
 - [GitHub Projects](https://github.com/features/project-management)
 - [Vercel](https://vercel.com/) (deploy frontend)
@@ -57,23 +62,25 @@ formatura-plataforma/
 ├── README.md # Este arquivo  
 └── .gitignore  
 
-
 ---
 
 ## 📦 Como rodar o projeto localmente
 
 ### Pré-requisitos
+
 - Node.js e npm instalados
 - MongoDB local ou Atlas
 - Conta gratuita no [Asaas](https://asaas.com/)
 
 ### 1. Clonar o repositório
+
 ```bash
-git clone https://github.com/seu-usuario/formatura-plataforma.git
+git clone https://github.com/lazaro-pontes/formatura-plataforma.git
 cd formatura-plataforma
 ```
 
 ### 2. Rodar o backend
+
 ```bash
 cd backend
 npm install
@@ -82,9 +89,9 @@ npm run dev
 ```
 
 ### 3. Rodar o frontend
+
 ```bash
 cd ../frontend
 npm install
 npm run dev
 ```
-
